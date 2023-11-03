@@ -11,11 +11,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Resource\Chess7-DaE1.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="Resource\Chess Com.ico" />
   </ItemGroup>
 
   <ItemGroup>
     <Page Include="App.xaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resource\Chess7-DaE1.ttf" />
   </ItemGroup>
 
 </Project>

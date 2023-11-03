@@ -45,7 +45,7 @@ namespace ChessWPF.Control
 
             piece.Move(destPos);
 
-            _board[destPos.Y, destPos.X].Curr_Piece = piece;
+            _board[destPos.Y, destPos.X] = new Tile(piece);
             _board[pieceCurrPos.Y, pieceCurrPos.X].Curr_Piece = null;
 
             return true;

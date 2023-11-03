@@ -20,5 +20,13 @@ namespace ChessWPF.Control
             _pm.InitPieces();
             _bm.InitBoard(_pm._pieces_R.Concat(_pm._pieces_B).ToArray());
         }
+
+        public void Move(Pieces pic, Point dest)
+        {
+            if (pic != null)
+            {
+                _bm.Move(pic, dest);
+            }
+        }
     }
 }
